@@ -1,0 +1,2 @@
+# startingo
+starting go 
