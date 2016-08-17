@@ -32,7 +32,7 @@ func main() {
     `)
 	p := Person{
 		UserName: "Kota",
-		Emails:   []string{"kota-matsumoto@altplus.co.jp", "kota1861@gmail.com"},
+		Emails:   []string{"kota1861@gmail.com"},
 		Friends:  []*Friend{&f1, &f2},
 	}
 	t.Execute(os.Stdout, p)
